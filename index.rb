@@ -1,5 +1,5 @@
 require 'sinatra'
 
-get '\' do
-  "hey, this is our start page"
+get '/' do
+  erb :index
 end
