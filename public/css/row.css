@@ -1,3 +1,11 @@
+/*
+This stylesheet will show unordered lists horizontally, and will wrap around:
+Meaning if you have 5 items, it will show in one row,
+if you have 10 items, it will show in two rows,
+if you have 15 items, it will show in three rows, etc.
+-Note that the number of items shown in one row changes with width of browser!
+*/
+
 body {
 	line-height: 1;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -37,7 +45,9 @@ ul.horizontal_list li{
 {
 	margin-left: 10%;
 	margin-right: 10%;
+	vertical-align: middle;
 	margin-top: 15%;
+	
 }
 
 

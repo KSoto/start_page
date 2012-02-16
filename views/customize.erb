@@ -1,10 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Customize your Start Page!</title>
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-  </head>
-  <body id="home">
-    <p>Hey..</p>
-  </body>
+    <title>Customize your start page</title>
+    <link rel="stylesheet" href="css/customize.css" type="text/css" />
+</head>
+<body>
+    <div class="top_right_text">
+          <a href="/login">Login</a> | <a href="/register">Register</a>
+    </div>
+<form id="login" method="post" action=""> 
+
+    <h1>Customize your start page!</h1>    
+    <div>
+    	<label for="start_pages">Choose your start pages: <br />(Select up to 10)</label>
+<select name="faves" multiple=true>
+  <option>Facebook</option>
+  <option>Twitter</option>
+  <option>Github</option>
+  <option>Amazon</option>
+  <option>Gmail</option>
+  <option>Pandora</option>
+</select>
+    </div>			
+
+    <div>
+    	<label for="background">Background color: (Ex: #FFFFFF)</label>
+    		<input type="text" name="background" id="background" title="Enter the background color" />
+        </div>			
+    
+    			
+    <div class="submit">
+        <button type="submit">Submit</button>    
+    </div>
+    
+    <p class="back"><a href="/customize">Go back to customizing your start page</a></p>
+  
+</form>	
+
+</body>
 </html>
+
